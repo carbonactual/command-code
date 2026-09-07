@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "domain": "ABBA",
+  "repository": "carbonactual/command-code",
+  "role": "command_tooling_source",
+  "owner": "ABBA Master AI",
+  "provides": ["command parsing", "command schema", "command lifecycle", "execution handoff"],
+  "flow": ["instruction", "resolve", "classify", "authorize", "execute", "verify", "proof", "result"],
+  "authority_rule": "Command tooling cannot bypass SEAL or universal authority contracts.",
+  "free_open_rule": true
+}
